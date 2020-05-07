@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:background="@drawable/profile_img_bg"
+        android:tooltipText="@string/choose_profile_pic"
+        android:src="@drawable/avatar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/profile_pic"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/profile_pic"
+        android:id="@+id/userName"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edittext_background"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:id="@+id/emailTV"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_email"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/userName"
+        android:background="@drawable/edittext_background"
+        />
+
+    <EditText
+        android:id="@+id/passwordTV"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="@string/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/emailTV"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_background"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="@string/location"
+        android:layout_below="@id/passwordTV"
+        android:layout_marginTop="25dp"
+        android:id="@+id/location"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext_background"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:layout_below="@id/location"
+        android:textSize="20sp"
+        android:id="@+id/signUp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signUp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_have_an_account"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginStart="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:onClick="openLoginPage"
+            android:layout_marginStart="20dp"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textColor="#0060CD"
+            />
+
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/signUp_progressbar"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/signUp"
+        android:theme="@style/AppTheme.WhiteAccent"
+        android:layout_marginTop="15dp"/>
+
+
+
+</RelativeLayout>

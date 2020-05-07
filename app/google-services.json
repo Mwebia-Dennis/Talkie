@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "618607862881",
+    "firebase_url": "https://twitter-d155e.firebaseio.com",
+    "project_id": "twitter-d155e",
+    "storage_bucket": "twitter-d155e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618607862881:android:f613905d0798d41454b620",
+        "android_client_info": {
+          "package_name": "com.mwebia.talkie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618607862881-si09pnk9mro8mk9b7qspj5f3gcllcjt4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtfMM80Ni0E7668hfQSSzUFS1kSJY2Kbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618607862881-si09pnk9mro8mk9b7qspj5f3gcllcjt4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618607862881:android:ff57e3c5dd6818fe54b620",
+        "android_client_info": {
+          "package_name": "com.mwebia.twitter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618607862881-4j1d7d5hvi19oenqdbns01cbg8tnu18j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mwebia.twitter",
+            "certificate_hash": "d7bd90035cba4cd2de74adf7cb44539e102d75f3"
+          }
+        },
+        {
+          "client_id": "618607862881-si09pnk9mro8mk9b7qspj5f3gcllcjt4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtfMM80Ni0E7668hfQSSzUFS1kSJY2Kbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618607862881-si09pnk9mro8mk9b7qspj5f3gcllcjt4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618607862881:android:84c099d281795a9154b620",
+        "android_client_info": {
+          "package_name": "com.mwebia.twitter2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618607862881-si09pnk9mro8mk9b7qspj5f3gcllcjt4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtfMM80Ni0E7668hfQSSzUFS1kSJY2Kbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618607862881-si09pnk9mro8mk9b7qspj5f3gcllcjt4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
